@@ -1,0 +1,50 @@
+#ext {
+	color: #C70039;
+}
+
+* {
+	font-family: 'Playfair Display', 'Montserrat';
+	font-size: 25px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#h2_1 {
+	text-transform: uppercase;
+}
+
+.ol_1 {
+	background-color: #B22A36;
+	border: none;
+}
+
+li {
+	border-width: 2px;
+	border-style: solid;
+	border-color: navy;
+}
+
+img + ul {
+	list-style: none;
+}
+
+body img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+img ~ #lastp {
+	text-align: center;
+}
+
+ul > li {
+	letter-spacing: 25px;
+	border: none !important;
+}
